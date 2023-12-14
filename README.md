@@ -30,8 +30,8 @@ Finally, navigate to `http://localhost:5000/` and you should see the API running
 
 ## API ENDPOINTS
 
-# GET /api/song
-# POST /apo/song
+### GET /api/song
+### POST /api/song
 sample payload
 ```json
 {
@@ -42,7 +42,7 @@ sample payload
 }
 ```
 
-# PUT /api/song/:SONG_ID
+### PUT /api/song/:SONG_ID
 sample payload
 ```json
 {
@@ -53,9 +53,9 @@ sample payload
 }
 ```
 
-# DELETE /api/song/:SONG_ID
+### DELETE /api/song/:SONG_ID
 
-# GET /api/stats
+### GET /api/stats
 
 sample reponse
 ```json
