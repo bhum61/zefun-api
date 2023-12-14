@@ -1,0 +1,5 @@
+{
+  "mongoURI": "mongodb://zefun-app:qwertasdf@mongodb:27017/zefun-app?authSource=admin",
+  "jwtSecret": "jwtSecretToken",
+  "jwtExpiration": 360000
+}
