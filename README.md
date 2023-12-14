@@ -3,7 +3,7 @@
 - Clone the scafold repository
 
 ```
-git clone --depth=1 https://github.com/polcham/mongoose-express-ts.git <project_name>
+git clone git@github.com:bhum61/zefun-api.git
 ```
 
 - Install dependencies
@@ -27,6 +27,85 @@ npm run start
 ```
 
 Finally, navigate to `http://localhost:5000/` and you should see the API running!
+
+## API ENDPOINTS
+
+# GET /api/song
+# POST /apo/song
+sample payload
+```json
+{
+  "title":"song title",
+  "artist":"artist name",
+  "genre":"genre",
+  "album":"album name"
+}
+```
+
+# PUT /api/song/:SONG_ID
+sample payload
+```json
+{
+  "title":"song title",
+  "artist":"artist name",
+  "genre":"genre",
+  "album":"album name"
+}
+```
+
+# DELETE /api/song/:SONG_ID
+
+# GET /api/stats
+
+sample reponse
+```json
+{
+    "stats": [
+        {
+            "count": 4,
+            "artists": 4,
+            "albums": 3,
+            "genres": 3
+        }
+    ],
+    "genreStats": [
+        {
+            "_id": "Tezita",
+            "count": 1
+        },
+        {
+            "_id": "Eskita",
+            "count": 2
+        },
+        {
+            "_id": "Guayla",
+            "count": 1
+        }
+    ],
+    "artistStats": [
+        {
+            "count": 1,
+            "artist": "Frezer",
+            "albums": 1
+        },
+        {
+            "count": 1,
+            "artist": "Seyumkal",
+            "albums": 1
+        },
+        {
+            "count": 1,
+            "artist": "Yigzaw",
+            "albums": 1
+        },
+        {
+            "count": 1,
+            "artist": "Tesfalem",
+            "albums": 1
+        }
+    ]
+}
+```
 
 ## Project Structure
 
